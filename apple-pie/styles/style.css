@@ -10,12 +10,26 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 30px;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
   font-weight: lighter;
   list-style: none;
   counter-reset: counter;
 }
+
+h1{
+  text-align: center;
+  font-size: 6em;
+  color: white;
+  margin: auto;
+}
+
+h2{
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
 
 /*  Set the font */
 body {
@@ -26,8 +40,16 @@ body {
 /* Write your CSS below */
 
 .sectionImage{
-  background-image:url(apple-pie.jpg);
+  background-image:url(C:\Users\abrah\Documents\lab-css-recipies\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg);
   background-size: cover; 
+  background-repeat:no-repeat;
+  height: 100vh;
+    
+}
+
+p,ul,ol{
+  margin: 0px 120px 40px 120px;
+  font-size: 1.5em;
 }
 
 ul li::before{
@@ -44,4 +66,14 @@ ol li::before{
 
 hr{
   width: 80%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
