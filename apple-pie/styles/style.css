@@ -41,7 +41,7 @@ h2{
 }
 
 .sectionImage{
-  background-image: url(C:\Users\abrah\Documents\lab-css-recipies\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg);
+  background-image: url(../images/apple-pie.jpg);
   background-size: cover; 
   height: 100vh;
     
